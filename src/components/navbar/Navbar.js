@@ -20,7 +20,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className={`w-full h-20 sticky top-0 z-50 transition-all duration-300 px-4 lg:px-80 flex justify-between items-center font-titleFont 
+    <div className={`border-2 border-b-4 w-full h-20 sticky top-0 z-50 transition-all duration-300 px-4 lg:px-80 flex justify-between items-center font-titleFont 
       ${isScrolled ? "bg-white/90 backdrop-blur-lg shadow-md h-16" : "bg-white h-24"}`}>
 
       {/* Logo Section */}
