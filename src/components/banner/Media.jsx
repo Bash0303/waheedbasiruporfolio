@@ -6,7 +6,7 @@ const Media = () => {
   const socials = [
     { icon: <FaInstagram />, link: "https://www.instagram.com/stopbegging01" },
     { icon: <FaTwitter />, link: "https://x.com/stopbegging95" },
-    { icon: <FaLinkedinIn />, link: "https://www.linkedin.com/feed/" },
+    { icon: <FaLinkedinIn />, link: "https://www.linkedin.com/in/umar-ibrahim-ayobami-87873454/" },
     { icon: <IoLogoWhatsapp />, link: "https://wa.me/+2348165371302" },
   ];
 
