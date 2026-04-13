@@ -73,5 +73,9 @@ export const featuresProject = [
   { id: 3, title: "SkoolRight", des: "www.skoolright.com" },
   { id: 4, title: "Wumbis Concept", des: "www.wumbisconcept.com" },
   { id: 5, title: "Bankole", des: "www.bankole.ng" },
-  { id: 6, title: "BULQ", des: "Under Development" }
+  { id: 7, title: "Bonnarvoo Paint", des: "www.bonnarvoopaint.com" },
+  { id: 8, title: "Aboki-Xchange", des: "under development" },
+  { id: 9, title: "ESEMEL", des: "https://jupebapplicationfrontend.onrender.com/" },
+  { id: 10, title: "BULQ", des: "Under Development" },
+  { id: 11, title: "Urello | Tivro Africa", des: "https://tivro.africa/" }
 ];

@@ -1,11 +1,11 @@
-import React from 'react'
-
-const Title2 = ({des}) => {
+const Title2 = ({ des, className = "" }) => {
   return (
-    <div className="flex flex-colfont-titleFont mb-14">
-      <h1 className="text-xl font-bold text-gray-300 capitalize md:text-2xl">{des}</h1>
+    <div className={`flex flex-col font-titleFont mb-14 ${className}`}>
+      <h1 className="text-xl font-bold capitalize md:text-2xl">
+        {des}
+      </h1>
     </div>
   );
-}
+};
 
-export default Title2
+export default Title2;
