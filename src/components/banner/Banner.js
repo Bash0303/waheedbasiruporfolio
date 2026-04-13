@@ -11,8 +11,8 @@ const Banner = () => {
       {/* Subtle decorative background element */}
       <div className="absolute top-20 -left-10 w-72 h-72 bg-white/5 rounded-full blur-3xl -z-10" />
       
-      {/* Wrapper Div for Content */}
-      <div className="flex flex-col gap-16 xl:gap-0 lgl:flex-row items-center w-full">
+      {/* Wrapper Div: Changed 'lgl:flex-row' to 'md:flex-row' for tablet support */}
+      <div className="flex flex-col md:flex-row items-center justify-between w-full gap-10 md:gap-0">
         <LeftBanner />
         <RightBanner />
       </div>
@@ -21,7 +21,6 @@ const Banner = () => {
       <div className="absolute bottom-0 left-0 w-full overflow-hidden leading-[0] transform rotate-180">
         <svg 
           className="relative block w-[calc(120%+1.3px)] h-[60px] md:h-[120px]" 
-          data-name="Layer 1" 
           xmlns="http://www.w3.org/2000/svg" 
           viewBox="0 0 1200 120" 
           preserveAspectRatio="none"
