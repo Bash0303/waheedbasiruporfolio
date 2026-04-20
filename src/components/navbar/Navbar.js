@@ -109,7 +109,7 @@ const Navbar = () => {
           <div className="mt-12">
             <div className="flex gap-4">
               {/* Optional: Add small social icons here for the mobile drawer */}
-              <span className="text-white/60 text-sm tracking-widest uppercase">Umar Ibrahim A.</span>
+              <span className="text-white/60 text-sm tracking-widest uppercase">Waheed Basiru.</span>
             </div>
           </div>
         </div>
